@@ -90,21 +90,21 @@ h1 {
 }
 
 #home-landing {
-  background-image: url("assets/modern-v-old.jpg"),
+  background-image: url("./assets/modern-v-old.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-blend-mode: overlay;
 }
 
 #learn-landing {
-  background-image: url("assets/modern-v-old.jpg");
+  background-image: url("./assets/modern-v-old.jpg");
 }
 
 #people-landing {
-  background-image: url("assets/i-live-here.jpeg");
+  background-image: url("./assets/i-live-here.jpeg");
 }
 
 #resources-landing {
-  background-image: url("assets/gentrify-this.png");
+  background-image: url("./assets/gentrify-this.png");
 }
 
 .about-container {
