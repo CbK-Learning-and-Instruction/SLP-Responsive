@@ -59,6 +59,7 @@ nav a {
   margin: 6vw 10vw;
   text-align: center;
   font-family: Poppins, sans-serif;
+  color: black;
 }
 
 .content-slice img {
@@ -286,12 +287,12 @@ button:hover {
 
   .text-content {
     font-size: 1.7rem;
-    color: black;
   }
 
   .content-slice {
     flex-direction: column;
     padding-bottom: 10vw;
+
   } 
 
   #icon-description {
