@@ -62,8 +62,10 @@ nav a {
   color: black;
 }
 
-.content-slice img {
+.content-img {
   box-shadow: 10px 0px 15px -2px #C0C0C0, 10px 11px 15px -2px #505050, 17px 15px 19px -2px #A9A9A9;
+  width: 40vw;
+  margin: 0 2vw;
 }
 
 .alt-color {
@@ -88,10 +90,12 @@ nav a {
   margin-right: 0;
 }
 
-.content-slice img {
-  width: 40vw;
-  margin: 0 2vw;
+.icon-emoji {
+  box-shadow: none;
+  width: 4vw;
 }
+
+
 
 button {
   height: 5vh;
@@ -106,6 +110,7 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+
 
 
 .landing-section {
@@ -130,10 +135,11 @@ button:hover {
   background-blend-mode: overlay;
 }
 
-#people-landing {
-  background-image: url("https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"),
-  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+#market-landing {
+  background-image: url("https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3868&q=80"),
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
+  padding: 2vw 0 0 0;
 }
 
 #demographics {
@@ -302,7 +308,10 @@ button:hover {
 
   #icon-box {
     margin: 3vw 0;
+    color: red;
   }
+
+  
 
   .content-slice img {
     min-width: 60vw;
