@@ -6,15 +6,22 @@ body {
   overflow-x: hidden;
 }
 
+h1, h2, h3 {
+  font-family: 'Coiny', cursive;
+}
+
+
+
 nav {
   display: flex;
   align-items: center;
-  background-color: oldlace;
+  background-color: #D6E4EA;
   font-family: 'Coiny', cursive;
   padding-right: 5vw;
   font-weight: 700;
   color: black;
 }
+
 
 
 nav ul {
@@ -58,8 +65,8 @@ nav a {
   font-size: 1.3rem;
   margin: 6vw 10vw;
   text-align: center;
-  font-family: Poppins, sans-serif;
   color: black;
+  font-family: 'Signika', sans-serif;
 }
 
 .content-img {
@@ -70,6 +77,10 @@ nav a {
 
 .alt-color {
   background-color: #D6E4EA;
+}
+
+.page-title {
+  margin-top: 0;
 }
 
 #icon-description {
@@ -129,8 +140,8 @@ button:hover {
 
 
 
-#learn-landing {
-  background-image: url("./assets/modern-v-old.jpg"),
+#use-cases-landing {
+  background-image: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"),
   linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-blend-mode: overlay;
 }
@@ -158,12 +169,15 @@ button:hover {
   align-items: center;
   height: 100vh;
   padding: 0 3vw;
-  
   color: black;
 }
 
 .hero-text {
   margin-right: 2vw;
+}
+
+.hero-text p {
+  font-family: 'Signika', sans-serif;
 }
 
 .hero-img {
@@ -212,7 +226,7 @@ button:hover {
 }
 
 .about-facts {
-  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: #D6E4EA;
   text-align: left;
 }
 
@@ -308,13 +322,34 @@ button:hover {
 
   #icon-box {
     margin: 3vw 0;
-    color: red;
   }
 
   
+  .logo {
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+  }
+
+  .logo img {
+    height: 7vw;
+  }
 
   .content-slice img {
     min-width: 60vw;
+  }
+
+  .hero-img {
+    min-width: 60vw;
+  }
+
+  .icon-emoji {
+    min-width: 20vw !important;
+  }
+  
+  ul {
+    margin-bottom: 0;
   }
   
 }
